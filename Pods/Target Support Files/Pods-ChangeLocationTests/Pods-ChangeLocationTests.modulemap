@@ -1,0 +1,6 @@
+framework module Pods_ChangeLocationTests {
+  umbrella header "Pods-ChangeLocationTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

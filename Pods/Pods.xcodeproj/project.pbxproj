@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003839A6267D0E90685FB5868B6AC1AE /* Pods-ChangeLocationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7AD0F598686A6ADD703923DB196D9D /* Pods-ChangeLocationTests-dummy.m */; };
+		0355260CAD87D271749BCF4FEEBB3281 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		140ABCF25E561EA5C6AD02E0FB1B809B /* DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 431C02A6FD82598D046C64BD81B43F71 /* DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		192169C0D5E642AC890F5AB18593BF56 /* NSString+DDXML.h in Headers */ = {isa = PBXBuildFile; fileRef = F38BBF1E76DFA979D2A94791B9D1BBC7 /* NSString+DDXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2822A9D4E318A0F9E965579717C68696 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0349E10505EE00091B456537CCC99E /* DDXMLDocument.m */; };
+		57989B3AA211A21132B9A25F5D807CD1 /* KissXML.h in Headers */ = {isa = PBXBuildFile; fileRef = 8443E184B828374974BA75D177E30827 /* KissXML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		586B8AF07E2E26D50094B0308271271A /* Pods-ChangeLocation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A767D42CEDE9DD5382461EAFCD8AC63 /* Pods-ChangeLocation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D8EDE88429BCE6A092C30CAD9212029 /* KissXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 013F85486F085199733D5E5A1CD79CF2 /* KissXML-dummy.m */; };
+		84E9F968D29397A68D19CB490D2EEC5B /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F600D884B4DB4F01C342D490179AF5F /* NSString+DDXML.m */; };
+		8D1013906C35E131F940C82B59C4BD4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		93683AA12DC343EE7599E1427965D689 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AD7B51C3D08822D8D1A603754F6C93B3 /* DDXMLNode.m */; };
+		9677D96534E4BB59C4779E562D50343E /* Pods-ChangeLocation-ChangeLocationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D7B8AA6E2DF4C7F55343842D5828CF7 /* Pods-ChangeLocation-ChangeLocationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D86974DBD7EE33414FC237214174836 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 544B3AE2BEA4C1E419A933BDBD51D04F /* DDXMLElement.m */; };
+		9D9A0B57C2FA3461891BD3C38E22E302 /* DDXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E685CCB9AD44F9EE34F8B1ED17497C /* DDXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A0C83414F522BB44C78DEE9430D397 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B4BDBDF939A835EB71B1E8666390B54F /* DDXMLPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A21EC24DFC143C09DDB11C2FB8FAAA2 /* DDXMLPrivate.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE339F9B97271C9D040B329F6CA931AE /* Pods-ChangeLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D01A220BA27F0507DC8AC18187FD2A /* Pods-ChangeLocation-dummy.m */; };
+		C6877DF27D3F398F72D982FCCAA41BD6 /* Pods-ChangeLocation-ChangeLocationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E358C4FE6A83B4EA961C1FE977CD36F0 /* Pods-ChangeLocation-ChangeLocationUITests-dummy.m */; };
+		CC39C1ED150944C5A9A9B4B48D55A670 /* DDXMLElementAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D9737A8F34807A3E03AD57C2E7259B7C /* DDXMLElementAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E27D51C6428103D639BC1329CE3F81A6 /* DDXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = BEBE5C13C099E10D17F9E6067E1ED744 /* DDXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8BCFF48C9DF67EEDA2C0E3AAB5296C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F385057C1B2CEE973231BE02357E34E0 /* DDXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BF661394E9B75E37871FB038E78ABC6 /* DDXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E0869C2686265032FB6855B88869B9 /* Pods-ChangeLocationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C5E3C5CDCA3C4180BA25BC77282592B /* Pods-ChangeLocationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA67199734E6995086461A0991B0BFE3 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C9C5BF3479BF1015D95D1B1FFEF224 /* DDXMLElementAdditions.m */; };
+		FCFB049C1031E834E32D516AAF9686EB /* KissXML-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A5C31AF1BA52D1E86B7A33906A7F077 /* KissXML-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77C7B1012F550029B81A6FB83219D9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2741BB8F2B3511C13651EDFD9F39EB;
+			remoteInfo = "Pods-ChangeLocation";
+		};
+		CBE16FD32007BC264F5DD687303D4A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E29B9B6C65A7F7B0A531D16330B38F1;
+			remoteInfo = KissXML;
+		};
+		DD843F047B0B1EF86444F95C0DCC71F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E29B9B6C65A7F7B0A531D16330B38F1;
+			remoteInfo = KissXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00D3A99F6CD103BD5C3BA961C243C4D0 /* Pods-ChangeLocation-ChangeLocationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocation-ChangeLocationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		013F85486F085199733D5E5A1CD79CF2 /* KissXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KissXML-dummy.m"; sourceTree = "<group>"; };
+		0A1DF7F11E2793008D7CCE8111ACDB0D /* Pods-ChangeLocationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChangeLocationTests.modulemap"; sourceTree = "<group>"; };
+		0C5E3C5CDCA3C4180BA25BC77282592B /* Pods-ChangeLocationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChangeLocationTests-umbrella.h"; sourceTree = "<group>"; };
+		0FC7F88EB9B25DB3A83204F42C3FC6B4 /* Pods-ChangeLocationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocationTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		186A0513018B37988903099D4F051527 /* Pods-ChangeLocation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChangeLocation.modulemap"; sourceTree = "<group>"; };
+		1A767D42CEDE9DD5382461EAFCD8AC63 /* Pods-ChangeLocation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChangeLocation-umbrella.h"; sourceTree = "<group>"; };
+		1AAF57D4354C1BB85A824A3262DD179E /* KissXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KissXML.xcconfig; sourceTree = "<group>"; };
+		2A5C31AF1BA52D1E86B7A33906A7F077 /* KissXML-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-umbrella.h"; sourceTree = "<group>"; };
+		2BF661394E9B75E37871FB038E78ABC6 /* DDXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLNode.h; path = KissXML/DDXMLNode.h; sourceTree = "<group>"; };
+		2CF8FE978211E0B341368AD06F60E7A1 /* KissXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KissXML-prefix.pch"; sourceTree = "<group>"; };
+		2F600D884B4DB4F01C342D490179AF5F /* NSString+DDXML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+DDXML.m"; path = "KissXML/Categories/NSString+DDXML.m"; sourceTree = "<group>"; };
+		2F7AD0F598686A6ADD703923DB196D9D /* Pods-ChangeLocationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChangeLocationTests-dummy.m"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		35808028DCA4AA9F94E31BBAD25D2DE8 /* Pods-ChangeLocationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocationTests.release.xcconfig"; sourceTree = "<group>"; };
+		4139E893C89FAD9E5C74C1300F24D31A /* Pods-ChangeLocation-ChangeLocationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocation-ChangeLocationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		431C02A6FD82598D046C64BD81B43F71 /* DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXML.h; path = KissXML/DDXML.h; sourceTree = "<group>"; };
+		47E145BA702861D67F7EF7BD2F67FC6C /* KissXML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KissXML.framework; path = KissXML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4889247BA281518F65E1F24A418B8BA5 /* Pods-ChangeLocationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChangeLocationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		544B3AE2BEA4C1E419A933BDBD51D04F /* DDXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElement.m; path = KissXML/DDXMLElement.m; sourceTree = "<group>"; };
+		647A1165140E8FDF50D8017F2C53F9C9 /* Pods-ChangeLocation-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocation-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B5CFD9220B0CD59870C05A9EE52F70F /* Pods-ChangeLocation-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChangeLocation-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D7B8AA6E2DF4C7F55343842D5828CF7 /* Pods-ChangeLocation-ChangeLocationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChangeLocation-ChangeLocationUITests-umbrella.h"; sourceTree = "<group>"; };
+		79726E8201040113A67ED781912F3834 /* Pods_ChangeLocationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChangeLocationTests.framework; path = "Pods-ChangeLocationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A21EC24DFC143C09DDB11C2FB8FAAA2 /* DDXMLPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLPrivate.h; path = KissXML/Private/DDXMLPrivate.h; sourceTree = "<group>"; };
+		8443E184B828374974BA75D177E30827 /* KissXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KissXML.h; path = KissXML/KissXML.h; sourceTree = "<group>"; };
+		8751202159CC9F205A8706BB393B7B0E /* Pods-ChangeLocation-ChangeLocationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocation-ChangeLocationUITests-Info.plist"; sourceTree = "<group>"; };
+		8B6684F0FFF90ED690CE81D1D04F4837 /* Pods-ChangeLocation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocation-Info.plist"; sourceTree = "<group>"; };
+		8E61D8CE4DB40427FD9BD7A02AB92E1D /* Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		912F6E4BEA5CD152E9A41FEDA1FF4865 /* Pods-ChangeLocation-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChangeLocation-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2FAC673FDEA34057F73615DDF8FEEEE /* Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A9E685CCB9AD44F9EE34F8B1ED17497C /* DDXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElement.h; path = KissXML/DDXMLElement.h; sourceTree = "<group>"; };
+		A9FAEFA9D7678AA4886A2190A6F94352 /* Pods_ChangeLocation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChangeLocation.framework; path = "Pods-ChangeLocation.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD7B51C3D08822D8D1A603754F6C93B3 /* DDXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLNode.m; path = KissXML/DDXMLNode.m; sourceTree = "<group>"; };
+		AEC2B3167CDD261EF902D036E9E557E3 /* KissXML.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KissXML.modulemap; sourceTree = "<group>"; };
+		B62A9908388547754791FF682F38107E /* Pods-ChangeLocation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocation.debug.xcconfig"; sourceTree = "<group>"; };
+		B7C9C5BF3479BF1015D95D1B1FFEF224 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLElementAdditions.m; path = KissXML/Additions/DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		BB6963028121EFDD0F883033F673D678 /* Pods-ChangeLocation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocation.release.xcconfig"; sourceTree = "<group>"; };
+		BEBE5C13C099E10D17F9E6067E1ED744 /* DDXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLDocument.h; path = KissXML/DDXMLDocument.h; sourceTree = "<group>"; };
+		C2D01A220BA27F0507DC8AC18187FD2A /* Pods-ChangeLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChangeLocation-dummy.m"; sourceTree = "<group>"; };
+		D9737A8F34807A3E03AD57C2E7259B7C /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDXMLElementAdditions.h; path = KissXML/Additions/DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		DEF903BEC27981A9EC168F3905AD0096 /* Pods-ChangeLocation-ChangeLocationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChangeLocation-ChangeLocationUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E358C4FE6A83B4EA961C1FE977CD36F0 /* Pods-ChangeLocation-ChangeLocationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChangeLocation-ChangeLocationUITests-dummy.m"; sourceTree = "<group>"; };
+		E479F3413D7B8A0EB76E0FAFAF9DF41D /* Pods-ChangeLocationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChangeLocationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F38BBF1E76DFA979D2A94791B9D1BBC7 /* NSString+DDXML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+DDXML.h"; path = "KissXML/Categories/NSString+DDXML.h"; sourceTree = "<group>"; };
+		F65FE10277A490D975BA701B624C5D6B /* Pods_ChangeLocation_ChangeLocationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ChangeLocation_ChangeLocationUITests.framework; path = "Pods-ChangeLocation-ChangeLocationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0349E10505EE00091B456537CCC99E /* DDXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDXMLDocument.m; path = KissXML/DDXMLDocument.m; sourceTree = "<group>"; };
+		FB76EE3272D799E4780C3903253176D3 /* Pods-ChangeLocation-ChangeLocationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChangeLocation-ChangeLocationUITests.modulemap"; sourceTree = "<group>"; };
+		FC66668762C037754A7B0E32CE72C0B1 /* Pods-ChangeLocationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChangeLocationTests-Info.plist"; sourceTree = "<group>"; };
+		FDCB03CD3DBA7A2984BB6121E8C0951B /* KissXML-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KissXML-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14450DA065F559EF1B4028C1F8360560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0355260CAD87D271749BCF4FEEBB3281 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8933152AF57D4CEC84F15C75F0FD32AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8BCFF48C9DF67EEDA2C0E3AAB5296C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D3450244A78464853A29A25A3925DF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1013906C35E131F940C82B59C4BD4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF3F4D8773B1C0F04B56AB9D695ED042 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4A0C83414F522BB44C78DEE9430D397 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1303040C3DE6BFCDC7C0BEA3A2721271 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC2B3167CDD261EF902D036E9E557E3 /* KissXML.modulemap */,
+				1AAF57D4354C1BB85A824A3262DD179E /* KissXML.xcconfig */,
+				013F85486F085199733D5E5A1CD79CF2 /* KissXML-dummy.m */,
+				FDCB03CD3DBA7A2984BB6121E8C0951B /* KissXML-Info.plist */,
+				2CF8FE978211E0B341368AD06F60E7A1 /* KissXML-prefix.pch */,
+				2A5C31AF1BA52D1E86B7A33906A7F077 /* KissXML-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KissXML";
+			sourceTree = "<group>";
+		};
+		6E95AFD10245C7A379882835F5B2384E /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				D9737A8F34807A3E03AD57C2E7259B7C /* DDXMLElementAdditions.h */,
+				B7C9C5BF3479BF1015D95D1B1FFEF224 /* DDXMLElementAdditions.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		881F5044CD11FDBEF98B2CF4E16B1C38 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D41D5D9A06C4EC34CA7AFE9F26AC4A51 /* KissXML */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9AFD3CBEAF137C7F7449DBE544210CD1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				431C02A6FD82598D046C64BD81B43F71 /* DDXML.h */,
+				BEBE5C13C099E10D17F9E6067E1ED744 /* DDXMLDocument.h */,
+				FB0349E10505EE00091B456537CCC99E /* DDXMLDocument.m */,
+				A9E685CCB9AD44F9EE34F8B1ED17497C /* DDXMLElement.h */,
+				544B3AE2BEA4C1E419A933BDBD51D04F /* DDXMLElement.m */,
+				2BF661394E9B75E37871FB038E78ABC6 /* DDXMLNode.h */,
+				AD7B51C3D08822D8D1A603754F6C93B3 /* DDXMLNode.m */,
+				7A21EC24DFC143C09DDB11C2FB8FAAA2 /* DDXMLPrivate.h */,
+				8443E184B828374974BA75D177E30827 /* KissXML.h */,
+				F38BBF1E76DFA979D2A94791B9D1BBC7 /* NSString+DDXML.h */,
+				2F600D884B4DB4F01C342D490179AF5F /* NSString+DDXML.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A2703CE7BF07477839C7C13865F90986 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E145BA702861D67F7EF7BD2F67FC6C /* KissXML.framework */,
+				A9FAEFA9D7678AA4886A2190A6F94352 /* Pods_ChangeLocation.framework */,
+				F65FE10277A490D975BA701B624C5D6B /* Pods_ChangeLocation_ChangeLocationUITests.framework */,
+				79726E8201040113A67ED781912F3834 /* Pods_ChangeLocationTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA05C1A1EA77D47CBD014FFC5A63D81 /* Pods-ChangeLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A1DF7F11E2793008D7CCE8111ACDB0D /* Pods-ChangeLocationTests.modulemap */,
+				4889247BA281518F65E1F24A418B8BA5 /* Pods-ChangeLocationTests-acknowledgements.markdown */,
+				0FC7F88EB9B25DB3A83204F42C3FC6B4 /* Pods-ChangeLocationTests-acknowledgements.plist */,
+				2F7AD0F598686A6ADD703923DB196D9D /* Pods-ChangeLocationTests-dummy.m */,
+				FC66668762C037754A7B0E32CE72C0B1 /* Pods-ChangeLocationTests-Info.plist */,
+				0C5E3C5CDCA3C4180BA25BC77282592B /* Pods-ChangeLocationTests-umbrella.h */,
+				E479F3413D7B8A0EB76E0FAFAF9DF41D /* Pods-ChangeLocationTests.debug.xcconfig */,
+				35808028DCA4AA9F94E31BBAD25D2DE8 /* Pods-ChangeLocationTests.release.xcconfig */,
+			);
+			name = "Pods-ChangeLocationTests";
+			path = "Target Support Files/Pods-ChangeLocationTests";
+			sourceTree = "<group>";
+		};
+		C059677D59F8F8E2FED59F5AB28EF7ED /* Pods-ChangeLocation */ = {
+			isa = PBXGroup;
+			children = (
+				186A0513018B37988903099D4F051527 /* Pods-ChangeLocation.modulemap */,
+				6B5CFD9220B0CD59870C05A9EE52F70F /* Pods-ChangeLocation-acknowledgements.markdown */,
+				647A1165140E8FDF50D8017F2C53F9C9 /* Pods-ChangeLocation-acknowledgements.plist */,
+				C2D01A220BA27F0507DC8AC18187FD2A /* Pods-ChangeLocation-dummy.m */,
+				912F6E4BEA5CD152E9A41FEDA1FF4865 /* Pods-ChangeLocation-frameworks.sh */,
+				8B6684F0FFF90ED690CE81D1D04F4837 /* Pods-ChangeLocation-Info.plist */,
+				1A767D42CEDE9DD5382461EAFCD8AC63 /* Pods-ChangeLocation-umbrella.h */,
+				B62A9908388547754791FF682F38107E /* Pods-ChangeLocation.debug.xcconfig */,
+				BB6963028121EFDD0F883033F673D678 /* Pods-ChangeLocation.release.xcconfig */,
+			);
+			name = "Pods-ChangeLocation";
+			path = "Target Support Files/Pods-ChangeLocation";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				881F5044CD11FDBEF98B2CF4E16B1C38 /* Pods */,
+				A2703CE7BF07477839C7C13865F90986 /* Products */,
+				F04E574EC0CB8910B3F2373F6FC72F31 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D41D5D9A06C4EC34CA7AFE9F26AC4A51 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				6E95AFD10245C7A379882835F5B2384E /* Additions */,
+				9AFD3CBEAF137C7F7449DBE544210CD1 /* Core */,
+				1303040C3DE6BFCDC7C0BEA3A2721271 /* Support Files */,
+			);
+			name = KissXML;
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		E85C71D029ADBE75E186173833F52A95 /* Pods-ChangeLocation-ChangeLocationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB76EE3272D799E4780C3903253176D3 /* Pods-ChangeLocation-ChangeLocationUITests.modulemap */,
+				A2FAC673FDEA34057F73615DDF8FEEEE /* Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.markdown */,
+				8E61D8CE4DB40427FD9BD7A02AB92E1D /* Pods-ChangeLocation-ChangeLocationUITests-acknowledgements.plist */,
+				E358C4FE6A83B4EA961C1FE977CD36F0 /* Pods-ChangeLocation-ChangeLocationUITests-dummy.m */,
+				DEF903BEC27981A9EC168F3905AD0096 /* Pods-ChangeLocation-ChangeLocationUITests-frameworks.sh */,
+				8751202159CC9F205A8706BB393B7B0E /* Pods-ChangeLocation-ChangeLocationUITests-Info.plist */,
+				6D7B8AA6E2DF4C7F55343842D5828CF7 /* Pods-ChangeLocation-ChangeLocationUITests-umbrella.h */,
+				4139E893C89FAD9E5C74C1300F24D31A /* Pods-ChangeLocation-ChangeLocationUITests.debug.xcconfig */,
+				00D3A99F6CD103BD5C3BA961C243C4D0 /* Pods-ChangeLocation-ChangeLocationUITests.release.xcconfig */,
+			);
+			name = "Pods-ChangeLocation-ChangeLocationUITests";
+			path = "Target Support Files/Pods-ChangeLocation-ChangeLocationUITests";
+			sourceTree = "<group>";
+		};
+		F04E574EC0CB8910B3F2373F6FC72F31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C059677D59F8F8E2FED59F5AB28EF7ED /* Pods-ChangeLocation */,
+				E85C71D029ADBE75E186173833F52A95 /* Pods-ChangeLocation-ChangeLocationUITests */,
+				ACA05C1A1EA77D47CBD014FFC5A63D81 /* Pods-ChangeLocationTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E8ACF61FB6EB64DF30F602FE7F011A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140ABCF25E561EA5C6AD02E0FB1B809B /* DDXML.h in Headers */,
+				E27D51C6428103D639BC1329CE3F81A6 /* DDXMLDocument.h in Headers */,
+				9D9A0B57C2FA3461891BD3C38E22E302 /* DDXMLElement.h in Headers */,
+				CC39C1ED150944C5A9A9B4B48D55A670 /* DDXMLElementAdditions.h in Headers */,
+				F385057C1B2CEE973231BE02357E34E0 /* DDXMLNode.h in Headers */,
+				B4BDBDF939A835EB71B1E8666390B54F /* DDXMLPrivate.h in Headers */,
+				FCFB049C1031E834E32D516AAF9686EB /* KissXML-umbrella.h in Headers */,
+				57989B3AA211A21132B9A25F5D807CD1 /* KissXML.h in Headers */,
+				192169C0D5E642AC890F5AB18593BF56 /* NSString+DDXML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E761121A08EB585AAA4DD27CD48C9A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586B8AF07E2E26D50094B0308271271A /* Pods-ChangeLocation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A384653AAEFE967AADF7A88E2E632922 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E0869C2686265032FB6855B88869B9 /* Pods-ChangeLocationTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B830C7FB5DBA30D95ECA2054CE2A84EB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9677D96534E4BB59C4779E562D50343E /* Pods-ChangeLocation-ChangeLocationUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		09224D2D56B88BD94A03F0655CA5C737 /* Pods-ChangeLocation-ChangeLocationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06E5E1A53067F60664F7DEE776E8DAE0 /* Build configuration list for PBXNativeTarget "Pods-ChangeLocation-ChangeLocationUITests" */;
+			buildPhases = (
+				B830C7FB5DBA30D95ECA2054CE2A84EB /* Headers */,
+				61A9C6DDF441F37A01F737AA193DA8DF /* Sources */,
+				8933152AF57D4CEC84F15C75F0FD32AA /* Frameworks */,
+				9A6525452767FA0BBB0380FA9BD33A83 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC575ED760B141877B71CE7068279309 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChangeLocation-ChangeLocationUITests";
+			productName = "Pods-ChangeLocation-ChangeLocationUITests";
+			productReference = F65FE10277A490D975BA701B624C5D6B /* Pods_ChangeLocation_ChangeLocationUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3E2741BB8F2B3511C13651EDFD9F39EB /* Pods-ChangeLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831B3795266007747422BE459872965B /* Build configuration list for PBXNativeTarget "Pods-ChangeLocation" */;
+			buildPhases = (
+				3E761121A08EB585AAA4DD27CD48C9A6 /* Headers */,
+				A38F3A7B4EE4B8D6719FF99734B4FB6F /* Sources */,
+				14450DA065F559EF1B4028C1F8360560 /* Frameworks */,
+				C4EA2E3666DB4D112332DB0542D8FBA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0161E98845EEAAE59875FA2A829A38 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChangeLocation";
+			productName = "Pods-ChangeLocation";
+			productReference = A9FAEFA9D7678AA4886A2190A6F94352 /* Pods_ChangeLocation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5E29B9B6C65A7F7B0A531D16330B38F1 /* KissXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD781060B87D623219371DE301B2D05A /* Build configuration list for PBXNativeTarget "KissXML" */;
+			buildPhases = (
+				0E8ACF61FB6EB64DF30F602FE7F011A2 /* Headers */,
+				D24C90980BE807F2C89CADF157492E24 /* Sources */,
+				9D3450244A78464853A29A25A3925DF4 /* Frameworks */,
+				A0C751E79B77124CF3C604002267B865 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KissXML;
+			productName = KissXML;
+			productReference = 47E145BA702861D67F7EF7BD2F67FC6C /* KissXML.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D6F714E2DC6898572CD95FE0EEBDF68E /* Pods-ChangeLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF440073607A8754DD6F3282DE900344 /* Build configuration list for PBXNativeTarget "Pods-ChangeLocationTests" */;
+			buildPhases = (
+				A384653AAEFE967AADF7A88E2E632922 /* Headers */,
+				8BF6DF18C04A957D3464A5E8819D97CD /* Sources */,
+				CF3F4D8773B1C0F04B56AB9D695ED042 /* Frameworks */,
+				83A3E19D51524E6FF14A1647F5C2EB3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B96F9AA186792B7520EF0AFD0D80A8C3 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChangeLocationTests";
+			productName = "Pods-ChangeLocationTests";
+			productReference = 79726E8201040113A67ED781912F3834 /* Pods_ChangeLocationTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A2703CE7BF07477839C7C13865F90986 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E29B9B6C65A7F7B0A531D16330B38F1 /* KissXML */,
+				3E2741BB8F2B3511C13651EDFD9F39EB /* Pods-ChangeLocation */,
+				09224D2D56B88BD94A03F0655CA5C737 /* Pods-ChangeLocation-ChangeLocationUITests */,
+				D6F714E2DC6898572CD95FE0EEBDF68E /* Pods-ChangeLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83A3E19D51524E6FF14A1647F5C2EB3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6525452767FA0BBB0380FA9BD33A83 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0C751E79B77124CF3C604002267B865 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EA2E3666DB4D112332DB0542D8FBA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61A9C6DDF441F37A01F737AA193DA8DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6877DF27D3F398F72D982FCCAA41BD6 /* Pods-ChangeLocation-ChangeLocationUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF6DF18C04A957D3464A5E8819D97CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003839A6267D0E90685FB5868B6AC1AE /* Pods-ChangeLocationTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38F3A7B4EE4B8D6719FF99734B4FB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE339F9B97271C9D040B329F6CA931AE /* Pods-ChangeLocation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24C90980BE807F2C89CADF157492E24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2822A9D4E318A0F9E965579717C68696 /* DDXMLDocument.m in Sources */,
+				9D86974DBD7EE33414FC237214174836 /* DDXMLElement.m in Sources */,
+				FA67199734E6995086461A0991B0BFE3 /* DDXMLElementAdditions.m in Sources */,
+				93683AA12DC343EE7599E1427965D689 /* DDXMLNode.m in Sources */,
+				6D8EDE88429BCE6A092C30CAD9212029 /* KissXML-dummy.m in Sources */,
+				84E9F968D29397A68D19CB490D2EEC5B /* NSString+DDXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B96F9AA186792B7520EF0AFD0D80A8C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChangeLocation";
+			target = 3E2741BB8F2B3511C13651EDFD9F39EB /* Pods-ChangeLocation */;
+			targetProxy = 77C7B1012F550029B81A6FB83219D9E2 /* PBXContainerItemProxy */;
+		};
+		BA0161E98845EEAAE59875FA2A829A38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = 5E29B9B6C65A7F7B0A531D16330B38F1 /* KissXML */;
+			targetProxy = DD843F047B0B1EF86444F95C0DCC71F9 /* PBXContainerItemProxy */;
+		};
+		DC575ED760B141877B71CE7068279309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KissXML;
+			target = 5E29B9B6C65A7F7B0A531D16330B38F1 /* KissXML */;
+			targetProxy = CBE16FD32007BC264F5DD687303D4A56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2A985C77B8493CFD6E418B622F1765FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35808028DCA4AA9F94E31BBAD25D2DE8 /* Pods-ChangeLocationTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocationTests/Pods-ChangeLocationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocationTests/Pods-ChangeLocationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		51F9E6B94F004159BE18E8C70A00F3E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB6963028121EFDD0F883033F673D678 /* Pods-ChangeLocation.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocation/Pods-ChangeLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocation/Pods-ChangeLocation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6341B9A27A82294DBA15E757E65282A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B62A9908388547754791FF682F38107E /* Pods-ChangeLocation.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocation/Pods-ChangeLocation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocation/Pods-ChangeLocation.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BEDF7921E3B9B2BE18F7FD2FEC5090C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAF57D4354C1BB85A824A3262DD179E /* KissXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML/KissXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KissXML/KissXML.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3F9791491FD3903C2D0A30D5472F58F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E479F3413D7B8A0EB76E0FAFAF9DF41D /* Pods-ChangeLocationTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocationTests/Pods-ChangeLocationTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocationTests/Pods-ChangeLocationTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C464AE37D74D36AF44E3F25DF2885F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D3A99F6CD103BD5C3BA961C243C4D0 /* Pods-ChangeLocation-ChangeLocationUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocation-ChangeLocationUITests/Pods-ChangeLocation-ChangeLocationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocation-ChangeLocationUITests/Pods-ChangeLocation-ChangeLocationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EDBEA0014FC7C752C9228C1D3B2343A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4139E893C89FAD9E5C74C1300F24D31A /* Pods-ChangeLocation-ChangeLocationUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChangeLocation-ChangeLocationUITests/Pods-ChangeLocation-ChangeLocationUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChangeLocation-ChangeLocationUITests/Pods-ChangeLocation-ChangeLocationUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F02E704711234A5FA29BEE01F986B816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AAF57D4354C1BB85A824A3262DD179E /* KissXML.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KissXML/KissXML-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KissXML/KissXML-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KissXML/KissXML.modulemap";
+				PRODUCT_MODULE_NAME = KissXML;
+				PRODUCT_NAME = KissXML;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06E5E1A53067F60664F7DEE776E8DAE0 /* Build configuration list for PBXNativeTarget "Pods-ChangeLocation-ChangeLocationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDBEA0014FC7C752C9228C1D3B2343A2 /* Debug */,
+				C464AE37D74D36AF44E3F25DF2885F27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831B3795266007747422BE459872965B /* Build configuration list for PBXNativeTarget "Pods-ChangeLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6341B9A27A82294DBA15E757E65282A5 /* Debug */,
+				51F9E6B94F004159BE18E8C70A00F3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD781060B87D623219371DE301B2D05A /* Build configuration list for PBXNativeTarget "KissXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEDF7921E3B9B2BE18F7FD2FEC5090C9 /* Debug */,
+				F02E704711234A5FA29BEE01F986B816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF440073607A8754DD6F3282DE900344 /* Build configuration list for PBXNativeTarget "Pods-ChangeLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3F9791491FD3903C2D0A30D5472F58F /* Debug */,
+				2A985C77B8493CFD6E418B622F1765FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

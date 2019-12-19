@@ -1,0 +1,6 @@
+framework module Pods_ChangeLocation {
+  umbrella header "Pods-ChangeLocation-umbrella.h"
+
+  export *
+  module * { export * }
+}
